@@ -1,0 +1,63 @@
+    1  cd mysite
+    2  git status
+    3  git add .
+    4  git commit -m "ma premiere partie est entree dans la liturgie. la seconde partie se concentre vers le quatorzieme siecle. je vous salue marie"
+    5  mkvirtualenv flask-tutorial --python=python3.6
+    6  pip install flask flask-login flask-sqlalchemy mysql-connector-python
+    7  pip freeze > requirements.txt
+    8  git status
+    9  git add .
+   10  git commit -m "je salue a tous mes amis seminaristes"
+   11  pip install Flask-Migrate
+   12  export FLASK_APP=flask_app.py
+   13  flask db init
+   14  git status
+   15  git add .
+   16  git commit -m "bon jour tres bien voila"
+   17  export FLASK_APP=flask_app.py
+   18  flask db init
+   19  git status
+   20  git add .
+   21  git commit -m "qui guerit une oreille tranchee?"
+   22  export FLASK_APP=flask_app.py
+   23  flask db init
+   24  git status
+   25  mkvirtualenv flask-tutorial --python=python3.6
+   26  pip install flask flask-login flask-sqlalchemy mysql-connector-python
+   27  pip freeze > requirements.txt
+   28  git status
+   29  git add .
+   30  git commit -m "sur le chemin"
+   31  pip install Flask-Migrate
+   32  export FLASK_APP=flask_app.py
+   33  flask db init
+   34  git status
+   35  git add .
+   36  git commit -m "nouveau roi de france"
+   37  pip freeze > requirements.txt
+   38  git status
+   39  export FLASK_APP=flask_app.py
+   40  flask db init
+   41  flask db migrate
+   42  flask db stamp head
+   43  pip freeze > requirements.txt
+   44  git status
+   45  git add .
+   46  git commit -m "magnifique, ca sera un beau temoignage qui fera plaisir, les papes sont elus par un conclave"
+   47  flaks db migrate
+   48  flask db migrate
+   49  flask db upgrade
+   50  git status
+   51  git add .
+   52  git commit -m "tete dure ou petit brebis. de l'allemagne qui signifie poils, comment se-nomme cette chemise..sept point, sans faute"
+   53  flask db migrate
+   54  flask db upgrade
+   55  flask shell
+   56  echo "# -home-arturoaiello-mysite-" >> README.md
+   57  git init
+   58  git add README.md
+   59  git commit -m "first commit"
+   60  git remote add origin https://github.com/jakegoodwell/-home-arturoaiello-mysite-.git
+   61  git push -u origin master
+   62  history
+   63  history > history.txt
